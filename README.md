@@ -120,20 +120,38 @@ python main.py
 ### **Folder Structure**
 
 ```
+### **Folder Structure**
+
 array-gradient-problem/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── data/
-├── outputs/
-├── src/
-│   ├── problem1_linear.py
-│   ├── problem2_array.py
-│   ├── problem3_gradient.py
-│   ├── problem4_plot.py
-│   ├── problem5_functions.py
-│   └── problem6_minimum.py
-└── main.py
+│ .gitignore
+│ main.py
+│ README.md
+│ requirements.txt
+│
+├───notebooks
+│ problem1.ipynb
+│ problem2.ipynb
+│ problem3.ipynb
+│ problem4.ipynb
+│ problem5.ipynb
+│ problem6.ipynb
+│
+├───outputs
+│ problem4_gradient.png
+│ problem4_linear.png
+│ problem5_2x2_2x.png
+│ problem5_sin.png
+│ problem5_x2.png
+│
+└───src
+│ problem1_linear.py
+│ problem2_array.py
+│ problem3_gradient.py
+│ problem4_plot.py
+│ problem5_functions.py
+│ problem6_minimum.py
+│ problem6_minimum.pyclear
+
 ```
 
 ---
